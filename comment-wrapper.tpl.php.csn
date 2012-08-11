@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="comment-wrapper.tpl.php" description="Insert code for comment-wrapper.tpl.php" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php // $Id: comment-wrapper.tpl.php $ ?>
+
+<div id="comments">
+  <?php print $content; ?>
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

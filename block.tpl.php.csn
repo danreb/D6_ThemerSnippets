@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="block.tpl.php" description="Insert code for block.tpl.php" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php // $Id: block.tpl.php, $ ?>
+
+<div id="block-<?php print $block->module .'-'. $block->delta; ?>" class="block block-<?php print $block->module ?>">
+  <?php if ($block->subject): ?>
+    <h2><?php print $block->subject ?></h2>
+  <?php endif;?>
+
+  <div class="content">
+    <?php print $block->content ?>
+  </div>
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

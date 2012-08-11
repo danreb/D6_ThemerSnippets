@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$head_title" description="$head_title: A modified version of the page title, for use in the TITLE tag." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $head_title; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

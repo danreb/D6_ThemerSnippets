@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="user-picture.tpl.php" description="Insert code for user-picture.tpl.php" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php // $Id: user-picture.tpl.php $ ?>
+
+<div class="picture">
+  <?php print $picture; ?>
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

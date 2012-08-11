@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="style.css" description="Start with a blank Starter CSS readily inserted id's and classes." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[@charset "utf-8";
+/* style.css */
+/* General */
+
+* { }
+html {}
+body { }
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+p {}
+div {}
+table {}
+td {}
+
+/* ID's */
+
+#page { }
+#header {}
+#logo {}
+#logo-title {}
+#name-and-slogan {}
+#site-name {}
+#site-slogan {}
+#search-box {}
+#search {}
+#header-region {}
+#container {}
+#navigation {}
+#primary {}
+#secondary {}
+#sidebar-left {}
+#main {}
+#main-squeeze {}
+#mission {}
+#page-title {}
+#content-content {}
+#sidebar-right {}
+#footer-wrapper {}
+#footer {}
+#comments {}
+
+/* Classes */
+
+.clear-block {}
+.menu {}
+.column {}
+.sidebar {}
+.title {}
+.tabs {}
+.meta {}
+.content {}
+.submitted {}
+.terms {}
+.terms-inline {}
+.container-inline {}
+.picture {}
+.profile {}
+.block {}
+.box {}
+.new {}
+.submitted {}
+.user-signature {}
+
+
+/* tag specific ) */
+
+span.new {}
+
+
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

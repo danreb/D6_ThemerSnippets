@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$messages" description="$messages: HTML for status and error messages. Should be displayed prominently." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $messages; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

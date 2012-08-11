@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$language" description="$language: (object) The language the site is being displayed in" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $language; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

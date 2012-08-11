@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Breadcrumb" description="Insert breadcrumb navigation" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!empty($breadcrumb)): ?>
+     <div id="breadcrumb"><?php print $breadcrumb; ?></div>
+  <?php endif; ?>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

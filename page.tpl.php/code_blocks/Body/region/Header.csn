@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Header" description="Insert collapsible header region" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!empty($header)): ?>
+    <div id="header-region">
+      <?php print $header; ?>
+    </div>
+  <?php endif; ?>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

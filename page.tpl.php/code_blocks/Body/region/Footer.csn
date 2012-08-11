@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Footer" description="Insert footer region with footer message" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <div id="footer-wrapper">
+    <div id="footer">
+      <?php print $footer_message; ?>
+      <?php if (!empty($footer)): print $footer; endif; ?>
+    </div> <!-- /footer -->
+  </div> <!-- /footer-wrapper -->
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

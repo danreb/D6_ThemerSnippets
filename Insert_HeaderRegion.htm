@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Insert  Header Region Code Block</title>
+    <script language="javascript">
+		function isDOMRequired() {
+			return true;
+		}
+		function objectTag() {
+			var strBody ='<?php if (!empty($header)): ?>\n'
+			+ '<div id="header-region">\n'
+			+ '<?php print $header; ?>\n'
+			+ '</div>\n'
+			+ '<?php endif; ?><!-- /header-region -->\n';		
+			return strBody;
+		}
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

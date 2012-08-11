@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$head" description="$head: Markup for the HEAD section (including meta tags, keyword tags, and  so on)." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $head; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

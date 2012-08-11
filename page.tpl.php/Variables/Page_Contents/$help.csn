@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$help" description="$help: Dynamic help text, mostly for admin pages." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $help; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$base_path" description="The base URL path of the Drupal installation. At the very least, this will always default to /" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $base_path; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

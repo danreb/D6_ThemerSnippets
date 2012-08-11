@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Sets body class" description="Sets the CSS classes of body tag." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php // $Id: template.php $
+
+/**
+ * Sets the body-tag class attribute.
+ * Adds 'sidebar-left', 'sidebar-right' or 'sidebars' classes as needed.
+ *
+ *
+ *    Note: Replace THEMENAME with the name of your theme!
+ */
+ 
+function THEMENAME_body_class($left, $right) {
+  $class = array();
+
+  if ($left != '' && $right != '') {
+    $class[] = 'sidebars';
+  }
+  elseif ($left != '') {
+    $class[] = 'sidebar-left';
+  }
+  elseif ($right != '') {
+    $class[] = 'sidebar-right';
+  }
+
+  if (arg(0) == 'admin') {
+    $class[] = 'admin';
+  }
+
+  if ($class) {
+    print ' class="' . implode(' ', $class) . '"';
+  }
+}
+
+/**
+ * Insert more function overrides here.
+ *
+ */
+
+?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

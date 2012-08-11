@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$footer_message" description=" $footer_message: The footer message as defined in the admin settings." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $footer_message; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

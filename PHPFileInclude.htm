@@ -1,0 +1,52 @@
+<!-- MENU-LOCATION=NONE -->
+<!DOCTYPE HTML SYSTEM "-//Macromedia//DWExtension layout-engine 5.0//dialog">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Include PHP File</title>
+<script language="JavaScript" type="text/javascript">
+// Adds code to PHP file
+function IncludePHPfile() {
+	// Gets start of selection
+	var arrSelection = dw.getDocumentDOM().source.getSelection();
+	var intPointInsertion = arrSelection[0];
+
+	// Builds string to insert
+	var strTexte = document.frmSelectPHPfile.lstType.options[document.frmSelectPHPfile.lstType.selectedIndex].value + "('" + document.frmSelectPHPfile.filePHPselectedIncl.value + "');";
+
+	// Inserts text
+	dw.getDocumentDOM().source.insert(intPointInsertion, strTexte);
+}
+
+// Displays buttons
+function commandButtons() {
+	return new Array("OK","IncludePHPfile();window.close();","Cancel","window.close()");
+}
+
+function Initialisation() {
+	document.frmSelectPHPfile.lstType.focus();
+}
+</script>
+
+</head>
+
+<body onLoad="Initialisation()">
+<form action="" method="post" enctype="multipart/form-data" name="frmSelectPHPfile" id="frmSelectPHPfile">
+  <table border="0">
+    <tr>
+      <td><label for="select">Type:</label></td>
+      <td><select name="lstType" id="lstType">
+        <option value="include" selected="selected">include</option>
+        <option value="include_once">include_once</option>
+        <option value="require">require</option>	  
+        <option value="require_once">require_once</option>
+        </select>      </td>
+    </tr>
+    <tr>
+      <td><label for="file">File:</label></td>
+      <td><input type="file" name="filePHPselectedIncl" id="filePHPselectedIncl"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

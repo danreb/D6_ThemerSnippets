@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$title" description="$title: The page title, for use in the actual HTML content." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $title; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

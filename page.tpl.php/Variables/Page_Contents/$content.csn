@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$content" description="$content: The main content of the current Drupal page." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $content; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

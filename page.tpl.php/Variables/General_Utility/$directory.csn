@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$directory" description="The directory the theme is located in, e.g. themes/garland or themes/garland/minelli" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $directory; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

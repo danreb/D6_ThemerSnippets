@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$tabs" description="$tabs: Tabs linking to any sub-pages beneath the current page (e.g., the view and edit tabs when displaying a node)." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $tabs; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

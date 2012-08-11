@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Closing body tag" description="Insert $closure, closing </body> and </html> tags." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php print $closure; ?>
+</body>
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

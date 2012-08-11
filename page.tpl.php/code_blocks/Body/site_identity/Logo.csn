@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Logo" description="Insert logo  linked to front page." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!empty($logo)): ?>
+    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+      <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+    </a>
+  <?php endif; ?>
+
+
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

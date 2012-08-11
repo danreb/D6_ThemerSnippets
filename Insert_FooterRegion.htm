@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Insert  Footer Region Code Block</title>
+    <script language="javascript">
+		function isDOMRequired() {
+			return true;
+		}
+		function objectTag() {
+			var strBody = '<div id="footer-wrapper">\n'
+			+ '<div id="footer">\n'
+			+ '<?php print $footer_message; ?>\n'
+			+ '<?php if (!empty($footer)): print $footer; endif; ?>\n'
+			+ '</div> <!-- /footer -->\n'
+			+ '</div> <!-- /footer-wrapper -->\n';		
+			return strBody;
+		}
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

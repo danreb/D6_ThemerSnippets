@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$scripts" description="$scripts: Script tags necessary to load the JavaScript files and settings for the page" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $scripts; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

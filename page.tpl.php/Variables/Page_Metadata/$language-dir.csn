@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$language->dir" description="$language->dir contains the language direction. It will either be 'ltr' or 'rtl'." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $language->dir; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

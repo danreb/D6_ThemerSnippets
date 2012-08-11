@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$styles" description="$styles: Style tags necessary to import all CSS files for the page." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $styles; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

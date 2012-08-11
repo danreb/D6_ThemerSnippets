@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$primary_links" description="$primary_links (array): An array containing primary navigation links for the site, if they have been configured." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $primary_links; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

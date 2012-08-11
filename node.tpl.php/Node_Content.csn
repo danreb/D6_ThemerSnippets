@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Node Content" description="Insert node contents." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <div class="content">
+    <?php print $content ?>
+  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

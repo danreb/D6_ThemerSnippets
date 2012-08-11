@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Tabs" description="Insert tabs" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!empty($tabs)): ?>
+    <div class="tabs"><?php print $tabs; ?></div>
+  <?php endif; ?>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

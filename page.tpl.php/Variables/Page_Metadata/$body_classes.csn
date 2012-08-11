@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$body_classes" description="$body_classes: A set of CSS classes for the BODY tag. This contains flags indicating the current layout (multiple columns, single column), the current  path, whether the user is logged in, and so on" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $body_classes; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

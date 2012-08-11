@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$search_box" description=" $search_box: HTML to display the search box, empty if search has been disabled." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $search_box; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

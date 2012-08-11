@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$is_front" description="$is_front: TRUE if the current page is the front page. Used to toggle the mission statement." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $is_front; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

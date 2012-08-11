@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Submitted" description="Insert submit information." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php if ($submitted): ?>
+  <span class="submitted"><?php print $submitted ?></span>
+<?php endif; ?>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

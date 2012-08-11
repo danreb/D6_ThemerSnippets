@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Node Title" description="Insert node title linked to full content." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php if (!$page): ?>
+  <h2>
+    <a href="<?php print $node_url ?>" title="<?php print $title ?>">
+      <?php print $title ?>
+    </a>
+  </h2>
+<?php endif; ?>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

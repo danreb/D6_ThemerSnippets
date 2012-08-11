@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="!$admin in front" description="Show admin header in every page but not in front page." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!$is_front && !empty($admin)) print $admin; ?> 
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

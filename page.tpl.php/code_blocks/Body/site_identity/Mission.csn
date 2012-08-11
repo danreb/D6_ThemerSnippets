@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Mission" description="Insert Site Mission Statement" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!empty($mission)): ?>
+    <div id="mission"><?php print $mission; ?></div>
+  <?php endif; ?>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

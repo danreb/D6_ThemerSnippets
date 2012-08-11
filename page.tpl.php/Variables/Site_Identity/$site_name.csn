@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$site_name" description="$site_name: The name of the site, empty when display has been disabled  in theme settings." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $site_name; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

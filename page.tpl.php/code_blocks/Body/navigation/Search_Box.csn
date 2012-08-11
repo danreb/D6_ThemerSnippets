@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Search Box" description="Insert Search box" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!empty($search_box)): ?>
+    <div id="search-box"><?php print $search_box; ?></div>
+  <?php endif; ?>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

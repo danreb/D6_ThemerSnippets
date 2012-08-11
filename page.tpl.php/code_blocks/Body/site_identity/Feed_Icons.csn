@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Feed Icons" description="Insert Feed Icons" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php print $feed_icons; ?>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

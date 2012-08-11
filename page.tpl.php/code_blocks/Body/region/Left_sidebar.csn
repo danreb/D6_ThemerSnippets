@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Left sidebar" description="Insert collapsible left sidebar region." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!empty($left)): ?>
+    <div id="sidebar-left" class="column sidebar">
+      <?php print $left; ?>
+    </div> <!-- /sidebar-left -->
+  <?php endif; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

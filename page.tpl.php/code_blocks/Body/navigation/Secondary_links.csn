@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Secondary links" description="Insert Secondary Links" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!empty($secondary_links)): ?>
+    <div id="secondary" class="clear-block">
+      <?php print theme('links', $secondary_links, array('class' => 'links secondary-links')); ?>
+    </div>
+  <?php endif; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

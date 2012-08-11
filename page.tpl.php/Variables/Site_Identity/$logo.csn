@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$logo" description="$logo: The path to the logo image, as defined in theme configuration." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $logo; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

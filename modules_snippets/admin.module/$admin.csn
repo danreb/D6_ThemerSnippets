@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$admin" description="show admin header in your theme." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!empty($admin)) print $admin; ?> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Body Opening Tag" description="Insert Drupal 6 <body> start tag." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<body class="<?php print $body_classes; ?>">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

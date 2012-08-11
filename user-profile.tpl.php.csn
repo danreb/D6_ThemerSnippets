@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="user-profile.tpl.php" description="Insert code for user-profile.tpl.php" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php // $Id: user-profile.tpl.php $ ?>
+
+<div class="profile">
+  <?php print $user_profile; ?>
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Terms" description="Insert terms information." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if ($terms): ?>
+    <div class="terms terms-inline"><?php print $terms ?></div>
+  <?php endif;?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

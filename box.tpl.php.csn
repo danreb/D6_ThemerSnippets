@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="box.tpl.php" description="Insert code for box.tpl.php" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php // $Id: box.tpl.php, $ ?>
+
+<div class="box">
+  <?php if ($title): ?>
+    <h2><?php print $title ?></h2>
+  <?php endif; ?>
+
+  <div class="content">
+	  <?php print $content ?>
+  </div>
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

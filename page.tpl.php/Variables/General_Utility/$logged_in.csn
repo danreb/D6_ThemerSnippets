@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$logged_in" description="$logged_in: TRUE if the user is registered and signed in" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $logged_in; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

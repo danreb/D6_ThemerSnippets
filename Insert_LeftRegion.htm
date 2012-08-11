@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Insert  Left Region Code Block</title>
+    <script language="javascript">
+		function isDOMRequired() {
+			return true;
+		}
+		function objectTag() {
+			var strBody ='<?php if (!empty($left)): ?>\n'
+			+ '<div id="sidebar-left" class="column sidebar">\n'
+			+ '<?php print $left; ?>\n'
+			+ '</div>\n'
+			+ '<?php endif; ?> <!-- /sidebar-left -->\n';		
+			return strBody;
+		}
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

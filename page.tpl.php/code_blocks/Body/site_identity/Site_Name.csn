@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Site Name" description="Insert Site name with link to front page" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!empty($site_name)): ?>
+    <h1 id="site-name">
+      <a href="<?php print $front_page ?>" title="<?php print t('Home'); ?>" rel="home">
+        <span><?php print $site_name; ?></span>
+       </a>
+     </h1>
+  <?php endif; ?>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Hide Revision and Author" description="Hides the revision and author information in node editing forms." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php
+/**
+ * Remove or hide the revision and author information in content editing / adding forms
+ *
+ *
+ * Note: Replace THEMENAME with the name of your theme!
+*/
+
+  function THEMENAME_node_form($form) // name of function starts with the name of your theme
+   {
+	   $form['revision_information']['#access']=FALSE; // remove revision information
+	   $form['author']['#access']=FALSE; // remove the author information
+	   return theme_node_form($form); // render the forms
+   } 
+   
+
+?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

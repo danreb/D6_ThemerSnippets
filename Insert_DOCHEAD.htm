@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Insert Head Code</title>
+    <script language="javascript">
+		function isDOMRequired() {
+			return true;
+		}
+		function objectTag() {
+			var strBody = '<head>'
+			+ '<?php print $head; ?>\n'
+			+ '<title><?php print $head_title; ?></title>'
+			+ '<?php print $styles; ?>\n'
+			+ '<?php print $scripts; ?>\n'
+			+ '<script type=\"text/javascript\"><?php /* Needed to avoid Flash of Unstyled Content in IE */ ?> <\/script>\n'
+			+ '</head>';	 
+			return strBody;
+		}
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

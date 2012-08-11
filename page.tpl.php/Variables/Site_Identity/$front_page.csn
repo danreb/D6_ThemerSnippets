@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$front_page" description="$front_page: The URL of the front page. Use this instead of $base_path, when linking to the front page. This includes the language domain or prefix." preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $front_page; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

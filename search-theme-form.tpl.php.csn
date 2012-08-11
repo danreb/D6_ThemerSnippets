@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="search-theme-form.tpl.php" description="Insert code for search-theme-form.tpl.php" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php // $Id: search-theme-form.tpl.php $ ?>
+
+<div id="search" class="container-inline">
+  <?php print $search_form; ?>
+</div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="$is_admin" description="$is_admin: TRUE if the user has permission to access administration pages" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<?php print $is_admin; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

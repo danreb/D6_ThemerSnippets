@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Help" description="Insert system help message" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!empty($help)): print $help; endif; ?>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

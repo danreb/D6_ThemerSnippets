@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Primary links" description="Insert Primary links" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[  <?php if (!empty($primary_links)): ?>
+    <div id="primary" class="clear-block">
+      <?php print theme('links', $primary_links, array('class' => 'links primary-links')); ?>
+    </div>
+  <?php endif; ?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

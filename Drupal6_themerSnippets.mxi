@@ -1,0 +1,242 @@
+﻿<macromedia-extension
+     name="Drupal 6 Theme Snippets 1.0"
+     version="1.0.0"
+     type="Suite">
+
+    <author name="Adolfo G. Nasol" />
+
+    <products>
+        <product name="Dreamweaver" version="6" primary="true" />
+    </products>
+
+    <description>
+    <![CDATA[
+    Drupal 6 Themer Snippets for Dreamweaver MX and above by Adolfo G. Nasol<br>
+<br>
+This is a set of snippets that allows you to easily insert the necessary code for your document to create your own template files and themes for Drupal 6.x<br>
+<br>
+A complete information about Drupal can be found at http://www.drupal.org<br>
+<br>
+Drupal 6 Themer Snippets adds additional folder named Drupal 6 in Dreamweaver Snippets panels and let you insert variables (HTML/PHP code) available within Drupal Theme layer, the tool will assist you in your theme development while using Dreamweaver for Drupal theme creation.<br>
+<br>
+With this snippets you can easily insert code (Drupal PHP Theme Variable) in Drupal templates files.
+    ]]>
+    </description>
+
+    <ui-access>
+    <![CDATA[
+    To use the Drupal 6 Themer Snippets 1.0:<br>
+Open Snippets panel > Drupal 6 > Select proper snippets > Click insert. Enjoy!<br>
+
+    ]]>
+    </ui-access>
+
+    <license-agreement>
+    <![CDATA[
+    <br>
+<br>
+This Drupal Themer Snippets is only available for Drupal 6x, Drupal 6 Themer Snippets is created by Adolfo G. Nasol , for suggestion and support please visit http://www.danreb.com
+    ]]>
+    </license-agreement>
+
+    <files>
+        <file source="_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/" />
+        <file source="comment.tpl.php.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/" />
+        <file source="maintenance-page.tpl.php.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/" />
+        <file source="page.tpl.php.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/" />
+        <file source="user-picture.tpl.php.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/" />
+        <file source="block.tpl.php.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/" />
+        <file source="box.tpl.php.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/" />
+        <file source="comment-wrapper.tpl.php.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/" />
+        <file source="node.tpl.php.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/" />
+        <file source="search-theme-form.tpl.php.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/" />
+        <file source="user-profile.tpl.php.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/" />
+        <file source="info_file/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/info_file/" />
+        <file source="info_file/themename.info.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/info_file/" />
+        <file source="modules_snippets/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/modules_snippets/" />
+        <file source="modules_snippets/admin.module/!$admin_in_front.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/modules_snippets/admin.module/" />
+        <file source="modules_snippets/admin.module/$admin.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/modules_snippets/admin.module/" />
+        <file source="node.tpl.php/links.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/node.tpl.php/" />
+        <file source="node.tpl.php/Node_Title.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/node.tpl.php/" />
+        <file source="node.tpl.php/Submitted.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/node.tpl.php/" />
+        <file source="node.tpl.php/Node_Content.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/node.tpl.php/" />
+        <file source="node.tpl.php/Node_Wrapper.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/node.tpl.php/" />
+        <file source="node.tpl.php/Terms.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/node.tpl.php/" />
+        <file source="page.tpl.php/code_blocks/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks" />
+        <file source="page.tpl.php/code_blocks/Body/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/" />
+        <file source="page.tpl.php/code_blocks/Body/Closing_body_tag.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/" />
+        <file source="page.tpl.php/code_blocks/Body/Body_Opening_Tag.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/" />
+        <file source="page.tpl.php/code_blocks/Body/navigation/Breadcrumb.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/navigation/" />
+        <file source="page.tpl.php/code_blocks/Body/navigation/Search_Box.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/navigation/" />
+        <file source="page.tpl.php/code_blocks/Body/navigation/Primary_links.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/navigation/" />
+        <file source="page.tpl.php/code_blocks/Body/navigation/Secondary_links.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/navigation/" />
+        <file source="page.tpl.php/code_blocks/Body/region/Content.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/region/" />
+        <file source="page.tpl.php/code_blocks/Body/region/Header.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/region/" />
+        <file source="page.tpl.php/code_blocks/Body/region/Right_sidebar.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/region/" />
+        <file source="page.tpl.php/code_blocks/Body/region/Footer.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/region/" />
+        <file source="page.tpl.php/code_blocks/Body/region/Left_sidebar.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/region/" />
+        <file source="page.tpl.php/code_blocks/Body/site_identity/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/site_identity/" />
+        <file source="page.tpl.php/code_blocks/Body/site_identity/Feed_Icons.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/site_identity/" />
+        <file source="page.tpl.php/code_blocks/Body/site_identity/Mission.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/site_identity/" />
+        <file source="page.tpl.php/code_blocks/Body/site_identity/Site_slogan.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/site_identity/" />
+        <file source="page.tpl.php/code_blocks/Body/site_identity/Content_Title.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/site_identity/" />
+        <file source="page.tpl.php/code_blocks/Body/site_identity/Logo.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/site_identity/" />
+        <file source="page.tpl.php/code_blocks/Body/site_identity/Site_Name.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/site_identity/" />
+        <file source="page.tpl.php/code_blocks/Body/utility/Help.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/utility/" />
+        <file source="page.tpl.php/code_blocks/Body/utility/Tabs.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/utility/" />
+        <file source="page.tpl.php/code_blocks/Body/utility/Message.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Body/utility/" />
+        <file source="page.tpl.php/code_blocks/Head/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Head/" />
+        <file source="page.tpl.php/code_blocks/Head/Head_tag.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Head/" />
+        <file source="page.tpl.php/code_blocks/Head/Doctype.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/code_blocks/Head/" />
+        <file source="page.tpl.php/Variables/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/" />
+        <file source="page.tpl.php/Variables/General_Utility/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/General_Utility/" />
+        <file source="page.tpl.php/Variables/General_Utility/$base_path.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/General_Utility/" />
+        <file source="page.tpl.php/Variables/General_Utility/$is_front.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/General_Utility/" />
+        <file source="page.tpl.php/Variables/General_Utility/$css.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/General_Utility/" />
+        <file source="page.tpl.php/Variables/General_Utility/$logged_in.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/General_Utility/" />
+        <file source="page.tpl.php/Variables/General_Utility/$directory.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/General_Utility/" />
+        <file source="page.tpl.php/Variables/General_Utility/$is_admin.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/General_Utility/" />
+        <file source="page.tpl.php/Variables/Footer_Data/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Footer_Data/" />
+        <file source="page.tpl.php/Variables/Footer_Data/$closure.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Footer_Data/" />
+        <file source="page.tpl.php/Variables/Footer_Data/$feed_icons.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Footer_Data/" />
+        <file source="page.tpl.php/Variables/Footer_Data/$footer.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Footer_Data/" />
+        <file source="page.tpl.php/Variables/Footer_Data/$footer_message.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Footer_Data/" />
+        <file source="page.tpl.php/Variables/Navigation/$primary_links.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Navigation/" />
+        <file source="page.tpl.php/Variables/Navigation/$search_box.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Navigation/" />
+        <file source="page.tpl.php/Variables/Navigation/$secondary_links.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Navigation/" />
+        <file source="page.tpl.php/Variables/Page_Contents/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Contents/" />
+        <file source="page.tpl.php/Variables/Page_Contents/$breadcrumb.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Contents/" />
+        <file source="page.tpl.php/Variables/Page_Contents/$messages.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Contents/" />
+        <file source="page.tpl.php/Variables/Page_Contents/$content.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Contents/" />
+        <file source="page.tpl.php/Variables/Page_Contents/$right.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Contents/" />
+        <file source="page.tpl.php/Variables/Page_Contents/$help.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Contents/" />
+        <file source="page.tpl.php/Variables/Page_Contents/$tabs.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Contents/" />
+        <file source="page.tpl.php/Variables/Page_Contents/$left.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Contents/" />
+        <file source="page.tpl.php/Variables/Page_Contents/$title.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Contents/" />
+        <file source="page.tpl.php/Variables/Page_Metadata/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Metadata/" />
+        <file source="page.tpl.php/Variables/Page_Metadata/$body_classes.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Metadata/" />
+        <file source="page.tpl.php/Variables/Page_Metadata/$language-dir.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Metadata/" />
+        <file source="page.tpl.php/Variables/Page_Metadata/$head.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_metadata/" />
+        <file source="page.tpl.php/Variables/Page_Metadata/$language-language.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Metadata/" />
+        <file source="page.tpl.php/Variables/Page_Metadata/$head_title.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Metadata/" />
+        <file source="page.tpl.php/Variables/Page_Metadata/$scripts.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Metadata/" />
+        <file source="page.tpl.php/Variables/Page_Metadata/$language.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Metadata/" />
+        <file source="page.tpl.php/Variables/Page_Metadata/$styles.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Page_Metadata/" />
+        <file source="page.tpl.php/Variables/Site_Identity/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Site_Identity/" />
+        <file source="page.tpl.php/Variables/Site_Identity/$front_page.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Site_Identity/" />
+        <file source="page.tpl.php/Variables/Site_Identity/$logo.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Site_Identity/" />
+        <file source="page.tpl.php/Variables/Site_Identity/$mission.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Site_Identity/" />
+        <file source="page.tpl.php/Variables/Site_Identity/$site_name.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Site_Identity/" />
+        <file source="page.tpl.php/Variables/Site_Identity/$site_slogan.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/page.tpl.php/Variables/Site_Identity/" />
+        <file source="starter_css/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/starter_css/" />
+        <file source="starter_css/style.css.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/starter_css/" />
+        <file source="template.php/_folderinfo.txt" destination="$dreamweaver/configuration/Snippets/Drupal_6/template.php/" />
+        <file source="template.php/Hide_Revision_and_Author.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/template.php/" />
+        <file source="template.php/Sets_Breadcrumb.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/template.php/" />
+        <file source="template.php/Comments_Wrapping.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/template.php/" />
+        <file source="template.php/Sets_body_class.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/template.php/" />
+        <file source="template.php/UTF-8_cleaner.csn" destination="$dreamweaver/configuration/Snippets/Drupal_6/template.php/" />
+        <file source="Insert_INFO.htm" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="info.gif" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="Insert_DOCTYPE.htm" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="doctype.gif" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="Insert_DOCHEAD.htm" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="dochead.gif" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="Insert_BODY.htm" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="bodyClasses.gif" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="Insert_CLOSURE.htm" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="ClosureRegion.gif" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="DrupalRegion.gif" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="Insert_HeaderRegion.htm" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="HeaderRegion.gif" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="Insert_LeftRegion.htm" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="LeftRegion.gif" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="Insert_ContentRegion.htm" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="ContentRegion.gif" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="Insert_RightRegion.htm" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="RightRegion.gif" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="Insert_FooterRegion.htm" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="FooterRegion.gif" destination="$dreamweaver/configuration/Objects/Drupal_6" />
+        <file source="PHPFileInclude.htm" destination="$dreamweaver/Configuration/Shared/Drupal_6" />
+        <file source="D6_PHPInsertion.js" destination="$dreamweaver/Configuration/Shared/Drupal_6" />
+        <file source="D6_PHPInsertion.htm" destination="$dreamweaver/Configuration/Shared/Drupal_6" />
+        <file source="php_CODE_INSERT.htm" destination="$dreamweaver/Configuration/Shared/Drupal_6" />
+        <file source="php_CODE_INSERT.js" destination="$dreamweaver/Configuration/Shared/Drupal_6" />
+    </files>
+
+    <configuration-changes>
+        <menu-insert appendTo="DWMenu_Insert">
+            <separator />
+            <menu id="DWMenu_Drupal6_THEMER" showif="_SERVERMODEL_PHP" name="_Drupal 6">
+            </menu>
+        </menu-insert>
+        <menu-insert appendTo="DWMenu_Drupal6_THEMER">
+            <menuitem id="Insert_THEME_INFO" name="_Theme Info" file="Drupal_6/Insert_INFO.htm" />
+        </menu-insert>
+        <menu-insert insertAfter="DWMenu_Help_Reference">
+            <separator />
+            <menu id="D6.DW.Drupal6.THEMER.TOOLBAR.HELP" name="Drupal 6 Themer Help">
+            </menu>
+        </menu-insert>
+        <menu-insert appendTo="D6.DW.Drupal6.THEMER.TOOLBAR.HELP">
+            <separator />
+            <menuitem id="D6.DW.Drupal6.THEMER.TOOLBAR.HELP.Drupal6.Themeguide" name="Theme Guide" command="dw.browseDocument('http://drupal.org/theme-guide/6');" />
+            <menuitem id="D6.DW.Drupal6.THEMER.TOOLBAR.HELP.Drupal6.Theme.Anatomy" name="Theme Anatomy" command="dw.browseDocument('http://drupal.org/node/171205');" />
+            <menuitem id="D6.DW.Drupal6.THEMER.TOOLBAR.HELP.Drupal6.Theme.Info" name="Info file structure" command="dw.browseDocument('http://drupal.org/node/171194');" />
+            <menuitem id="D6.DW.Drupal6.THEMER.TOOLBAR.HELP.Drupal6.Theamble" name="Themeable template" command="dw.browseDocument('http://api.drupal.org/api/group/themeable/6');" />
+            <separator />
+            <menuitem id="D6.DW.Drupal6.THEMER.TOOLBAR.HELP.VisitDrupal" name="visit - drupal.org" command="dw.browseDocument('http://drupal.org/');" />
+            <menuitem id="D6.DW.Drupal6.THEMER.TOOLBAR.HELP.VisitDANREB" name="visit - danreb.com" command="dw.browseDocument('http://danreb.com/');" />
+        </menu-insert>
+        <menu-insert insertAfter="DWContext_HTML_NewSnippet" skipSeparator="true">
+            <menu id="D6_6Context_Insert_CodePHP" showif="_VIEW_CODE, _SERVERMODEL_PHP" name="Insert PHP _Code">
+            </menu>
+            <menu id="D6_6Context_Insert_VariablesPHP" showif="_VIEW_CODE, _SERVERMODEL_PHP" name="Insert PHP _Variable">
+            </menu>
+            <separator />
+        </menu-insert>
+        <menu-insert appendTo="D6_6Context_Insert_CodePHP">
+            <menuitem id="D6_6Context_Insert_CodePHP_IF" name="_if" file="Shared/DRUPAL_6/php_CODE_INSERT.htm" arguments="'if'" />
+            <menuitem id="D6_6Context_Insert_CodePHP_ELSE" name="_else" file="Shared/DRUPAL_6/php_CODE_INSERT.htm" arguments="'else'" />
+            <menuitem id="D6_6Context_Insert_CodePHP_ELSEIF" name="elsei_f" file="Shared/DRUPAL_6/php_CODE_INSERT.htm" arguments="'elseif'" />
+            <menuitem id="DRUPAL_6Context_Insert_CodePHP_IFELSE" name="if_ else" file="Shared/DRUPAL_6/php_CODE_INSERT.htm" arguments="'ifelse'" />
+            <menuitem id="D6_6Context_Insert_CodePHP_IFELSEIFELSE" name="if e_lseif else" file="Shared/DRUPAL_6/php_CODE_INSERT.htm" arguments="'ifelseifelse'" />
+            <separator />
+            <menuitem id="D6_6Context_Insert_CodePHP_SWITCH" name="_switch" file="Shared/DRUPAL_6/php_CODE_INSERT.htm" arguments="'switch'" />
+            <separator />
+            <menuitem id="D6_6Context_Insert_CodePHP_FOR" name="f_or" file="Shared/DRUPAL_6/php_CODE_INSERT.htm" arguments="'for'" />
+            <menuitem id="D6_6Context_Insert_CodePHP_FOREACH" name="fo_reach" file="Shared/DRUPAL_6/php_CODE_INSERT.htm" arguments="'foreach'" />
+            <separator />
+            <menuitem id="D6_6Context_Insert_CodePHP_WHILE" name="_while" file="Shared/DRUPAL_6/php_CODE_INSERT.htm" arguments="'while'" />
+            <menuitem id="D6_6Context_Insert_CodePHP_DO" name="_do" file="Shared/DRUPAL_6/php_CODE_INSERT.htm" arguments="'do'" />
+            <separator />
+            <menuitem id="D6_6Context_Insert_CodePHP_FUNCTION" name="f_unction" file="Shared/DRUPAL_6/php_CODE_INSERT.htm" arguments="'function'" />
+            <separator />
+            <menuitem id="D6_6Context_Insert_CodePHP_ServerSideInclude" name="Server Side I_nclude" file="Shared/DRUPAL_6/PHPFileInclude.htm" />
+        </menu-insert>
+        <menu-insert appendTo="D6_6Context_Insert_VariablesPHP" skipSeparator="true">
+            <menuitem id="D6_6Context_Insert_VariablesPHP_Default" dynamic name="No variable found" file="Shared/DRUPAL_6/D6_PHPInsertion.htm" arguments="'pas de variables'" />
+        </menu-insert>
+        <insertbar-changes>
+            <insertbar-insert insertBefore="DW_Insertbar_Common">
+                <category folder="Drupal_6" id="DW_mInsertbar_Drupal6" name="Drupal 6" showIf="">
+                    <button enabled="_VIEW_CODE" file="Drupal_6\Insert_INFO.htm" id="DW_Drupal_6_mINFO" image="Drupal_6\info.gif" />
+                    <button file="Drupal_6\Insert_DOCTYPE.htm" id="DW_Drupal_6_mDOCTYPE" image="Drupal_6\doctype.gif" showIf="_VIEW_CODE" />
+                    <button file="Drupal_6\Insert_DOCHEAD.htm" id="DW_Drupal_6_mDOCHEAD" image="Drupal_6\dochead.gif" />
+                    <button file="Drupal_6\Insert_BODY.htm" id="DW_Drupal_6_mbodyClasses" image="Drupal_6\bodyClasses.gif" />
+                    <button file="Drupal_6\Insert_CLOSURE.htm" id="DW_Drupal_6_mCLosureRegion" image="Drupal_6\ClosureRegion.gif" />
+                    <menubutton folder="Drupal_6_Regions" id="D6_Drupal_6_Regions" image="Drupal_6\DrupalRegion.gif" name="Drupal Regions">
+                        <button file="Drupal_6\Insert_HeaderRegion.htm" id="DW_Drupal_6_mHeader_Region" image="Drupal_6\HeaderRegion.gif" />
+                        <button file="Drupal_6\Insert_LeftRegion.htm" id="DW_Drupal_6_mLeft_Region" image="Drupal_6\LeftRegion.gif" />
+                        <button file="Drupal_6\Insert_ContentRegion.htm" id="DW_Drupal_6_mContent_Region" image="Drupal_6\ContentRegion.gif" />
+                        <button file="Drupal_6\Insert_RightRegion.htm" id="DW_Drupal_6_mHeader_Region" image="Drupal_6\RightRegion.gif" />
+                        <button file="Drupal_6\Insert_FooterRegion.htm" id="DW_Drupal_6_mFooter_Region" image="Drupal_6\FooterRegion.gif" />
+                    </menubutton>
+                </category>
+            </insertbar-insert>
+        </insertbar-changes>
+        <extensions-changes>
+            <extension-insert extension="MODULE,INSTALL,INFO,THEME,TAL,XTMPL,ENGINE,INC" description="PHP FILES" />
+        </extensions-changes>
+    </configuration-changes>
+</macromedia-extension>
